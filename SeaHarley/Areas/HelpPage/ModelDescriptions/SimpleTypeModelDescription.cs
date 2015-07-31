@@ -1,0 +1,6 @@
+namespace SeaHarley.Areas.HelpPage.ModelDescriptions
+{
+    public class SimpleTypeModelDescription : ModelDescription
+    {
+    }
+}

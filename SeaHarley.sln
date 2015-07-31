@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaHarley.Presentation.Web", "SeaHarley\SeaHarley.Presentation.Web.csproj", "{605E6357-5B36-44FA-A4F5-C067AF70537E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentatioin", "Presentatioin", "{0AD85018-3633-4525-BB53-BB13D6FA0AD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2AEEBA8B-EC73-4688-9ABD-19B61A2CC162}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7D4310F4-3ED4-47C1-BAE6-A56CCF9580F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{38452EF4-0702-4AB8-86A3-8C74728DD172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaHarley.Services", "SeaHarley.Services\SeaHarley.Services.csproj", "{69E8B317-89A0-49DB-A786-898DC3D6CBC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaHarley.Domain", "SeaHarley.Domain\SeaHarley.Domain.csproj", "{5135E2F0-D6F8-4249-B20A-F343E8D86A3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaHarley.Data", "SeaHarley.Data\SeaHarley.Data.csproj", "{A6C9A5D2-C8FF-4B0B-8740-E779AFCF49DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{605E6357-5B36-44FA-A4F5-C067AF70537E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605E6357-5B36-44FA-A4F5-C067AF70537E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605E6357-5B36-44FA-A4F5-C067AF70537E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605E6357-5B36-44FA-A4F5-C067AF70537E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E8B317-89A0-49DB-A786-898DC3D6CBC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E8B317-89A0-49DB-A786-898DC3D6CBC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E8B317-89A0-49DB-A786-898DC3D6CBC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E8B317-89A0-49DB-A786-898DC3D6CBC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5135E2F0-D6F8-4249-B20A-F343E8D86A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5135E2F0-D6F8-4249-B20A-F343E8D86A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5135E2F0-D6F8-4249-B20A-F343E8D86A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5135E2F0-D6F8-4249-B20A-F343E8D86A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C9A5D2-C8FF-4B0B-8740-E779AFCF49DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C9A5D2-C8FF-4B0B-8740-E779AFCF49DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C9A5D2-C8FF-4B0B-8740-E779AFCF49DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C9A5D2-C8FF-4B0B-8740-E779AFCF49DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{605E6357-5B36-44FA-A4F5-C067AF70537E} = {0AD85018-3633-4525-BB53-BB13D6FA0AD5}
+		{69E8B317-89A0-49DB-A786-898DC3D6CBC0} = {38452EF4-0702-4AB8-86A3-8C74728DD172}
+		{5135E2F0-D6F8-4249-B20A-F343E8D86A3D} = {2AEEBA8B-EC73-4688-9ABD-19B61A2CC162}
+		{A6C9A5D2-C8FF-4B0B-8740-E779AFCF49DD} = {7D4310F4-3ED4-47C1-BAE6-A56CCF9580F9}
+	EndGlobalSection
+EndGlobal
